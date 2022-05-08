@@ -21,7 +21,7 @@
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="cafeInfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              카페
+              {{ testData }}
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">신메뉴</a></li>
@@ -59,7 +59,13 @@
 
 <script>
 export default {
-  name: "MenuBar"
+  name: "MenuBar",
+
+  data() {
+    return {
+      testData: '카페',
+    }
+  }
 }
 </script>
 

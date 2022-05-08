@@ -1,16 +1,25 @@
 <template>
   <menu-bar />
+  <main-page />
 
 </template>
 
 <script>
 import MenuBar from "@/components/MenuBar";
+import MainPage from "@/components/MainPage";
 
 export default {
   name: 'App',
   components: {
+    MainPage,
     MenuBar,
   },
+
+  data() {
+    return {
+
+    }
+  }
 }
 </script>
 
