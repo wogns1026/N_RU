@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img alt="N_RU img1" src="../assets/nru_img1.PNG">
+<!--    <img alt="N_RU img1" src="../assets/nru_img1.PNG">-->
   </div>
 </template>
 
