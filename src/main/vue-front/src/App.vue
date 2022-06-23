@@ -1,7 +1,9 @@
 <template>
-  <menu-bar />
-  <main-page />
-  <nru-footer />
+  <div>
+    <menu-bar />
+    <main-page />
+    <nru-footer />
+  </div>
 </template>
 
 <script>

@@ -1,60 +1,101 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-<!--      <img alt="N_RU LOGO" src="../assets/nru_logo.png">-->
-      <h3>NRU GALLERY</h3>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="nruInfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              소개
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">N_RU STORY</a></li>
-              <li><a class="dropdown-item" href="#">오시는 길</a></li>
+  <div class="hero_area">
+<!--    <div class="bg-box">-->
+<!--      <img src="images/nru-gallery1.jpg" alt="">-->
+<!--    </div>-->
+    <header class="header_section" style="background-color: black;">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              NRU Gallery
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">NRU STORY <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" href="menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">숙소</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html">GALLERY</a>
+              </li>
             </ul>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="cafeInfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              {{ testData }}
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">신메뉴</a></li>
-              <li><a class="dropdown-item" href="#">음료</a></li>
-              <li><a class="dropdown-item" href="#">디저트</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="hotelInfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              민박
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">소개</a></li>
-              <li><a class="dropdown-item" href="#">예약</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="galleryInfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              GALLERY
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">전시회</a></li>
-              <li><a class="dropdown-item" href="#">문의하기</a></li>
-            </ul>
-          </li>
-        </ul>
+          </div>
+        </nav>
       </div>
-    </div>
-  </nav>
+    </header>
+    <section class="slider_section " style="background-color: purple">
+<!--      <img src="images/nru-gallery1.jpg" alt="">-->
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Fast Food Restaurant
+                    </h1>
+                    <p>
+                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Fast Food Restaurant
+                    </h1>
+                    <p>
+                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Fast Food Restaurant
+                    </h1>
+                    <p>
+                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <ol class="carousel-indicators">
+            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#customCarousel1" data-slide-to="1"></li>
+            <li data-target="#customCarousel1" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
