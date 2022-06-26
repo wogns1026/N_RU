@@ -1,119 +1,90 @@
 <template>
-  <div class="hero_area">
-<!--    <div class="bg-box">-->
-<!--      <img src="images/nru-gallery1.jpg" alt="">-->
-<!--    </div>-->
-    <header class="header_section" style="background-color: white;">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              NRU Gallery
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto ">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">NRU STORY <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item" >
-                <a class="nav-link" href="menu.html">MENU</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">숙소</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="book.html">GALLERY</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+  <nav class="navbar navbar-expand-lg navbar-light shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+        NRU GALLERY
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+        <div class="flex-fill">
+          <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">NRU STORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">숙소</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">GALLERY</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header>
-    <section class="slider_section">
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="images/nru-gallery.JPG" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/nru-gallery.JPG" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/nru-img1.PNG" alt="Third slide">
+    </div>
+  </nav>
+  <!-- Close Header -->
+
+  <!-- Modal -->
+  <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="w-100 pt-1 mb-5 text-right">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form action="" method="get" class="modal-content modal-body border-0 p-0">
+        <div class="input-group mb-2">
+          <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+          <button type="submit" class="input-group-text bg-success text-light">
+            <i class="fa fa-fw fa-search text-white"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+  <!-- Start Banner Hero -->
+  <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row p-5">
+            <img class="img-fluid" src="nru-img1.PNG" alt="">
           </div>
         </div>
-<!--        <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="number(1000)">-->
-<!--          <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-<!--          <span class="sr-only">Previous</span>-->
-<!--        </a>-->
-        <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="number(1000)">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-<!--        <div class="carousel-inner">-->
-<!--          <div>-->
-<!--            <img src="images/nru-gallery1.jpg" alt="">-->
-<!--            <div class="container ">-->
-<!--              <div class="row">-->
-<!--                <div class="col-md-7 col-lg-6 ">-->
-<!--                  <div class="detail-box">-->
-<!--                    <h1>-->
-<!--                      Fast Food Restaurant-->
-<!--                    </h1>-->
-<!--                    <p>-->
-<!--                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.-->
-<!--                    </p>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="carousel-item ">-->
-<!--            <div class="container ">-->
-<!--              <div class="row">-->
-<!--                <div class="col-md-7 col-lg-6 ">-->
-<!--                  <div class="detail-box">-->
-<!--                    <h1>-->
-<!--                      Fast Food Restaurant-->
-<!--                    </h1>-->
-<!--                    <p>-->
-<!--                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.-->
-<!--                    </p>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="carousel-item">-->
-<!--            <div class="container ">-->
-<!--              <div class="row">-->
-<!--                <div class="col-md-7 col-lg-6 ">-->
-<!--                  <div class="detail-box">-->
-<!--                    <h1>-->
-<!--                      Fast Food Restaurant-->
-<!--                    </h1>-->
-<!--                    <p>-->
-<!--                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.-->
-<!--                    </p>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="container">-->
-<!--          <ol class="carousel-indicators">-->
-<!--            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>-->
-<!--            <li data-target="#customCarousel1" data-slide-to="1"></li>-->
-<!--            <li data-target="#customCarousel1" data-slide-to="2"></li>-->
-<!--          </ol>-->
-<!--        </div>-->
       </div>
-    </section>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row p-5">
+            <img class="img-fluid" src="nru-gallery.JPG" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row p-5">
+            <img class="img-fluid" src="nru-gallery1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+      <i class="fas fa-chevron-right"></i>
+    </a>
   </div>
 </template>
 
