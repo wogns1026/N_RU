@@ -63,21 +63,21 @@
       <div class="carousel-item active">
         <div class="container">
           <div class="row p-5">
-            <img style="height: 600px;" src="nru-img1.PNG" alt="">
+            <img style="max-width: 100%; height: 600px;" src="nru-img1.PNG" alt="">
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="container">
           <div class="row p-5">
-            <img style="height: 600px;" src="nru-gallery.JPG" alt="">
+            <img style="max-width: 100%; height: 600px;" src="nru-gallery.JPG" alt="">
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="container">
           <div class="row p-5">
-            <img style="height: 600px;" src="nru-gallery1.jpg" alt="">
+            <img style="max-width: 100%; height: 600px;" src="nru-gallery1.jpg" alt="">
           </div>
         </div>
       </div>
