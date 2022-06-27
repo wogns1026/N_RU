@@ -23,6 +23,9 @@
             <li class="nav-item">
               <a class="nav-link" href="contact.html">GALLERY</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">공지사항</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -56,25 +59,25 @@
       <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
       <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div class="carousel-inner" style="">
       <div class="carousel-item active">
         <div class="container">
           <div class="row p-5">
-            <img class="img-fluid" src="nru-img1.PNG" alt="">
+            <img style="height: 600px;" src="nru-img1.PNG" alt="">
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="container">
           <div class="row p-5">
-            <img class="img-fluid" src="nru-gallery.JPG" alt="">
+            <img style="height: 600px;" src="nru-gallery.JPG" alt="">
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="container">
           <div class="row p-5">
-            <img class="img-fluid" src="nru-gallery1.jpg" alt="">
+            <img style="height: 600px;" src="nru-gallery1.jpg" alt="">
           </div>
         </div>
       </div>
