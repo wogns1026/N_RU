@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import MenuBar from "@/components/MenuBar";
-import MainPage from "@/components/MainPage";
-import NruFooter from "@/components/NruFooter";
+import MenuBar from "@/views/MenuBar";
+import MainPage from "@/views/MainPage";
+import NruFooter from "@/views/NruFooter";
 
 export default {
   name: 'App',
