@@ -1,22 +1,21 @@
 <template>
   <div>
     <menu-bar />
-    <main-page />
+    <router-view />
     <nru-footer />
   </div>
 </template>
 
 <script>
 import MenuBar from "@/views/MenuBar";
-import MainPage from "@/views/MainPage";
 import NruFooter from "@/views/NruFooter";
 
 export default {
   name: 'App',
+
   components: {
-    MainPage,
     MenuBar,
-    NruFooter,
+    NruFooter
   },
 
   data() {
