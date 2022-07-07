@@ -7,6 +7,11 @@ const routes = [
         component: () => import('../views/MainPage')
     },
     {
+        path: '/nru-story',
+        name: 'NRU STORY',
+        component: () => import('../views/NruStory')
+    },
+    {
         path: '/gallery',
         name: 'Gallery',
         component: () => import('../views/Gallery')
